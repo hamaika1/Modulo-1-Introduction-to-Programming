@@ -1,0 +1,23 @@
+Algoritmo Practica_04
+	Definir kilometros, kmporLts Como Entero;
+	Definir precio, cantLts, consumoLts Como Real;
+	
+	//Entrada;
+	Escribir "Ingrese Kms recorridos: ";
+	Leer kilometros;
+	
+	Escribir "Ingrese relacion Km por litro: ";
+	Leer kmporLts;
+	
+	Escribir "Ingrese precio de combustible por litro: ";
+	Leer precio;
+	
+	//Proceso ;
+	cantLts = kilometros / kmporLts;
+	consumoLts = cantLts * precio;
+	
+	//Salida;
+	Escribir  "Total de litros consumidos: ", cantLts;
+	Escribir  "Gasto total en pesos: ", consumoLts;
+	
+FinAlgoritmo

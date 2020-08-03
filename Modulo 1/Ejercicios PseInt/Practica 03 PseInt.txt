@@ -1,0 +1,10 @@
+Algoritmo Ej_Cuadrado
+	Definir perimetro,lado Como Entero;
+	//Entrada;
+	Escribir "Ingrese el lado del cuadrado:";
+	//Proceso;
+	Leer lado;
+	perimetro <- lado * 4;
+	//Salida;
+	Escribir "El perimetro del cuadrado es: ", perimetro;
+FinAlgoritmo
