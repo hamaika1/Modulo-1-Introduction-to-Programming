@@ -1,0 +1,15 @@
+//Entidades(Clases), atributos y metodos:
+
+//Entidad libro:
+[Libro |-isbn;-autor;-titulo;-cantPaginas| +toString();-validarPaginas()]
+
+//Entidad biblioteca:
+[Biblioteca
+|-estanteria|+agregarLibro();+buscarLibro();+mostrarLibros()]
+
+//Entidad ejecutable (Clase main):
+[Ejecutable ||+main()]
+
+//Definir relaciones:
+[Biblioteca]-tiene *>[Libro]
+[Ejecutable]usa -.->[Biblioteca]
