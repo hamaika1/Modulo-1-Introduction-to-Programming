@@ -76,4 +76,17 @@ public class Caminera {
         aux = "Codigo de infraccion mas frecuente: " + codMayor + ", con " + mayor + " actas labradas.";
         return aux;
     }
+
+    //Definimos el metodo para mostrar todas las multas registradas por la caminera;
+    public String mostrarMultas() {
+        StringBuilder aux = new StringBuilder("");
+
+        for (Multa multa : multas) {
+            if (multa != null) {
+                aux.append(multa.mostrarMulta()).append("\n");
+            }
+        }
+
+        return aux.toString();
+    }
 }

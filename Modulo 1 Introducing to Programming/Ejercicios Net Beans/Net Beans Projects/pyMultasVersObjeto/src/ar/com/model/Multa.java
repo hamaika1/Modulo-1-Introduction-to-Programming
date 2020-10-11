@@ -41,7 +41,7 @@ public class Multa {
 
     //Definimos el metodo toString;
     public String mostrarMulta() {
-        return "El acta: " + acta + ", con codigo: " + codigo + ", tiene un monto de: " + monto;
+        return "El acta N: " + acta + ", con codigo: " + codigo + ", tiene un monto de: $" + monto;
     }
 
     //Definimos el metodo para calcular el monto total:
